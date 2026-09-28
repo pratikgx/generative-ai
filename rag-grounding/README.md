@@ -50,7 +50,7 @@ See
 [this blog post: How to evaluate generated answers from RAG at scale on Vertex AI](https://medium.com/google-cloud/vqa-3-how-to-evaluate-generated-answers-from-rag-at-scale-on-vertex-ai-70bc397cb33d)
 for a more in-depth walkthrough.
 
-- **[evaluate_rag_gen_ai_evaluation_service_sdk.ipynb](../gemini/evaluation/evaluate_rag_gen_ai_evaluation_service_sdk.ipynb)**:
+- **[evaluate_rag_gen_ai_evaluation_service_sdk.ipynb](../gemini/evaluation/evaltask_approach/evaluate_rag_gen_ai_evaluation_service_sdk.ipynb)**:
   Evaluates RAG systems using the Gen AI Evaluation Service SDK, offering both
   reference-free and reference-based evaluation methods with visualization.
 - **[ragas_with_gemini.ipynb](../gemini/use-cases/retrieval-augmented-generation/rag-evaluation/ragas_with_gemini.ipynb)**:

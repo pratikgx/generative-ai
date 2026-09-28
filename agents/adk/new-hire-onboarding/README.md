@@ -216,11 +216,11 @@ The agent's state machine transitions are validated using formal golden evaluati
 
 - **Evaluation Set Config:** [eval_config.json](tests/eval/eval_config.json)
 - **Golden Standard Cases:** [onboarding_eval.json](tests/eval/evalsets/onboarding_eval.json)
-- **Golden Idle-Time Delay Cases:** [idle_time_delay_eval.json](tests/eval/evalsets/idle_time_delay_eval.json)
+- **Golden Idle-Time Delay Cases:** [dead_time_delay_eval.json](tests/eval/evalsets/dead_time_delay_eval.json)
 
 Run evaluation metrics locally (using the direct virtualenv runner to avoid credential/conflict overrides):
 ```bash
-.venv/bin/adk eval ./app tests/eval/evalsets/idle_time_delay_eval.json --config_file_path tests/eval/eval_config.json
+.venv/bin/adk eval ./app tests/eval/evalsets/dead_time_delay_eval.json --config_file_path tests/eval/eval_config.json
 ```
 
 ---
