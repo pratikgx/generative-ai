@@ -15,7 +15,7 @@ For self-contained notebooks for interactively building each agent design patter
 - A chat assistant with function calling streaming capabilities, grounded on a mock retail dataset ([reference](./agent-design-patterns/README.md#function-calling-agent)).
 - A multi-agent chat assistant for generating research plans, executing them and reflecting on the results ([reference](./agent-design-patterns/README.md#task-planner))
 
-We have also packaged these implementations as a "click-to-deploy" application that serves each LangGraph agent on a FastAPI Server with a Streamlit frontend demo. The agent server is compatible with the [LangGraph Cloud API spec](https://langchain-ai.github.io/langgraph/cloud/reference/api/api_ref.html) (to learn more about why this is useful, visit this [section](#why-use-the-langgraph-cloud-api-spec)).
+We have also packaged these implementations as a "click-to-deploy" application that serves each LangGraph agent on a FastAPI Server with a Streamlit frontend demo. The agent server is compatible with the [LangGraph Cloud API spec](https://docs.langchain.com/langsmith/agent-server-api) (to learn more about why this is useful, visit this [section](#why-use-the-langgraph-cloud-api-spec)).
 
 For instructions on deployment, please navigate to the [End-to-end Deployment](#end-to-end-deployment-) section. The command-line tool for automated deployment is defined in the [scripts/cli](./scripts/cli/) folder.
 
